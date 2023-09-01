@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menominee Story</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <link rel="icon" type="image/x-icon" href="img/icon.ico"> 
+    
+    <link rel="stylesheet" href="./lib/scrollmap.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!--add scrollmap content here-->
+    <div class="content">
+        <!--title block, background image is title image-->
+        <div class="row" style="background-image: url(img/WI_Menominee_Highlighted.png);background-repeat: no-repeat; background-size: cover;">
+            <div class="title">
+                <div class="center">
+                <!--title text-->
+                <h1>Unfolding the story of Menominee, WI</h1>
+                <!--subtitle or author-->
+                <p class="author"><b>Cartographer:</b> Siddharth (Sid) Ramavajjala, UW-Madison</p>
+                </div>
+            </div>
+        </div>
+        <!--What factors are driving block: Text Block-->
+        <div class="row">
+            <div class="header-desc center-wide">
+                Use the interactive map below to answer the following questions:
+                    <ol type="1" class = "mapDesc">
+                        <li>Find which <b>county</b> has the most percentage of <b>Native Americans</b>?</li>
+                        <li>Find which <b>county</b> has the highest percentage of <b>poverty (kids)</b>?</li>
+                        <li>Find which <b>county</b> has the highest <b>Gini Index of Income Inequality</b>?</li>
+                    </ol>
+            </div>
+        </div>
+        <!--mapbox iframe-->
+        <div class="row">
+            <div class="center">
+                <p class = "mapDesc">Hit reset button and start answering the above questions? Did you find any interesting pattern? Keep scrolling to know more !!</p>
+            </div>
+            <iframe width="600px" height="500px" src="https://sidrcs.github.io/Interactive_Cartography/nacis/" title="Wisconsin Social Indiactors Map" ></iframe>
+        </div>
+        <div class="row">
+            <div class="center">
+                <p class = "header-desc">Yes !! The answer is <b>Menonimee</b>. But why?</p>
+            </div>
+        </div>
+        <!--Menominee Seal-->
+        <div class="row">
+            <!--left aligned image-->
+            <div class="left">
+                <img class="fit" src="img/seal-menominee-nation.png">
+            </div>
+            <!--Description-->
+            <div class="right">
+                <p class="mapDesc vert-center">According to latest county health rankings & roadmaps data from the University of Wisconsin <a href = "https://www.med.wisc.edu/news-and-events/2019/march/county-health-rankings-2019/">Population Health Institute</a>, <b>Menominee,WI</b> ranked the least healthiest county in the state of Wisconsin (Out of 72 counties)</p>
+            </div>
+        </div>
+        <!--Menominee County Formation-->
+        <div class="row">
+            <!--left aligned image-->
+            <div class="left">
+                <p class="mapDesc vert-center">On July 3, 1959, former Wisconsin Governor Gaylord Nelson, Menominee became 72<sup>nd</sup> county and youngest of WI. The Menominee means “<b>Wild Rice People</b>”. The Menominee Indian Tribe’s residency in Wisconsin, and parts of Michigan and Illinois, dates back 10,000 years. Years of persecution, war and land grab led to poverty !!</p>
+            </div>
+            <!--right aligned caption-->
+            <div class="right">
+                <img class="fit" src="img/WI_Menominee_Highlighted.png">
+            </div>
+        </div>
+        <!--What factors are driving block: Text Block-->
+        <div class="row">
+            <div class="center">
+                <p class = "header-desc">What factors drove <b>Menominee</b> to this situation ?</p>
+            </div>
+        </div>
+       <!--background images with text scrolling over them-->
+        <div class="scroll-container">    
+            <!--background images-->
+            <div class="background-item">
+                <img src="img/Native_Americans.png" data-slide="0" class="fit vert-center">
+                <img src="img/Poverty_kids.png" data-slide="1" class="fit vert-center">
+                <img src="img/Gini_Index.png" data-slide="2" class="fit vert-center">
+            </div>
+            <!--foreground text blocks-->
+            <div class="foreground-item">
+                <div class="row">
+                    <div class="right background-transparent rounded">
+                        <p class="mapDesc no-margin">Menominee has the highest <b>Native American Population</b> population in Wisconsin.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="right background-transparent rounded">
+                        <p class="mapDesc no-margin">Poverty has negative impact on <b>Mental & Physical Health</b> says Tribal Chairman Ronald Corn Sr.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="right background-transparent rounded">
+                        <p class="mapDesc no-margin"><b>COVID-19</b> and high unemployment rates driven Gini Index low. (<i>0 refers to high inequality</i>)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--What factors are driving block: Text Block-->
+        <div class="row">
+            <div class="center">
+                <p class = "header-desc">What's being done to improve the situation ?</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--left aligned image-->
+            <div class="left">
+                <p class="mapDesc vert-center">Only <b>5%</b> of the population has access to exercise opportunities compared to Wisconsin state average of <b>78%</b>.Therefore, a new family and community center has been opened for public and health related coaches are recruited.</p>
+            </div>
+            <!--right aligned caption-->
+            <div class="right">
+                <img class="fit" src="img/community_health_center.png">
+            </div>
+        </div>
+        <!--Menominee Seal-->
+        <div class="row">
+            <!--left aligned image-->
+            <div class="left">
+                <img class="fit" src="img/Menominee_Tribal_Clinic.png">
+            </div>
+            <!--Description-->
+            <div class="right">
+                <p class="mapDesc vert-center">Menominee has about 27% of population with poor/fair health which almost 2 times of the state average of 15%. Therefore, Menominee government plans to expand the existing tribal clinic and extend help for the population, especially children.</p>
+            </div>
+        </div>
+        <!--credits and usage sections-->
+        <div class="row">
+            <div class="center-wide">
+                <hr>
+                <h2>Credits</h2>
+                <p class="MapDesc">Data Sources: <a href = "https://foodsecurity.wisc.edu/downloaddata">Wisconsin Food Security Project</a>, MSNBC</p>
+                <p class="MapDesc">Scrolly-template: <a href = "https://cartobaldrica.github.io/portfolio/resume.html"> Gareth Baldrica-Franklin</a></p>
+                <p style="font-size:medium;color:lightgray">
+                    © Copyright Chinna Subbaraya Siddharth (Sid) Ramavajjala 2022 </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript" src="./lib/scrollmap.js"></script>
+<script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+
+</body>
+</html>

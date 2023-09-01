@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Open Sans',sans-serif;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+p{
+    font-size:20px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/* hyperlinks style*/
+a:-webkit-any-link {
+    color: #538a64;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mapDesc{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    color:#4d6245b7;
+}
+
+.header-desc{
+    font-size:20px;
+    color: #4d6245b7;
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgba(255, 255, 255, 0.386); 
+    box-shadow: 7px 7px 5px 0px rgba(166, 166, 166, 0.6);
+}
+
+.table-center
+{
+    width: 80%;
+    height: 100%;
+    font-family: 'Open Sans',sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 7px 7px 5px 0px rgba(216, 215, 215, 0.75);
+ 
+}
+
+td, th {
+    border: 2px solid rgb(228, 228, 228,0.75);
+    border-collapse: collapse;
+}
+
+body{
+    background-image: url("../img/background.png");
+}
